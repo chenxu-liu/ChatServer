@@ -1,14 +1,20 @@
 #pragma once
 #include <muduo/net/TcpServer.h>
 #include <muduo/base/Logging.h>
-#include <boost/bind.hpp>
-#include <muduo/net/EventLoop.h>
 
+#include <muduo/net/EventLoop.h>
+#include <functional>
+#include <string>
+#include "json.hpp"
+#include "Service.h"
+using namespace std;
+using json=nlohmann::json;
+using namespace placeholders;
 // 使用muduo开发回显服务器
-class EchoServer
+class ChatServer
 {
  public:
-  EchoServer(muduo::net::EventLoop* loop,
+  ChatServer(muduo::net::EventLoop* loop,
              const muduo::net::InetAddress& listenAddr);
 
   void start(); 

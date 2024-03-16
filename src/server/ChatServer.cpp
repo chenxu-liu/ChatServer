@@ -1,34 +1,37 @@
 #include "ChatServer.h"
-EchoServer::EchoServer(muduo::net::EventLoop* loop,
+ChatServer::ChatServer(muduo::net::EventLoop* loop,
                        const muduo::net::InetAddress& listenAddr)
   : server_(loop, listenAddr, "EchoServer")
 {
   server_.setConnectionCallback(
-      boost::bind(&EchoServer::onConnection, this, _1));
+      std::bind(&ChatServer::onConnection, this, _1));
   server_.setMessageCallback(
-      boost::bind(&EchoServer::onMessage, this, _1, _2, _3));
+      std::bind(&ChatServer::onMessage, this, _1, _2, _3));
 }
 
-void EchoServer::start()
+void ChatServer::start()
 {
   server_.start();
 }
 
-void EchoServer::onConnection(const muduo::net::TcpConnectionPtr& conn)
+void ChatServer::onConnection(const muduo::net::TcpConnectionPtr& conn)
 {
-  LOG_INFO << "EchoServer - " << conn->peerAddress().toIpPort() << " -> "
+  LOG_INFO << "ChatServer - " << conn->peerAddress().toIpPort() << " -> "
            << conn->localAddress().toIpPort() << " is "
            << (conn->connected() ? "UP" : "DOWN");
 }
 
-void EchoServer::onMessage(const muduo::net::TcpConnectionPtr& conn,
-                           muduo::net::Buffer* buf,
+void ChatServer::onMessage(const muduo::net::TcpConnectionPtr& conn,
+                           muduo::net::Buffer* buffer,
                            muduo::Timestamp time)
 {
-  // 接收到所有的消息，然后回显
-  muduo::string msg(buf->retrieveAllAsString());
-  LOG_INFO << conn->name() << " echo " << msg.size() << " bytes, "
-           << "data received at " << time.toString();
-  conn->send(msg);
+  string buf = buffer->retrieveAllAsString();
+  //反序列化josn字符串
+  json js = json::parse(buf);
+  //解耦网络和业务模块的代码
+  //通过js里面的msgid，绑定msgid的回调函数，获取业务处理器handler
+  auto msg_handler = Service::getService()->get_handler(js["msgid"].get<int>());
+  msg_handler(conn,js,time);
+
 }
 

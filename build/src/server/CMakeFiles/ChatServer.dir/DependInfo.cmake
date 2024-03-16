@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/liuchenxu/桌面/vscode/ChatServer/src/server/ChatServer.cpp" "src/server/CMakeFiles/ChatServer.dir/ChatServer.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/ChatServer.cpp.o.d"
+  "/home/liuchenxu/桌面/vscode/ChatServer/src/server/Service.cpp" "src/server/CMakeFiles/ChatServer.dir/Service.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/Service.cpp.o.d"
   "/home/liuchenxu/桌面/vscode/ChatServer/src/server/main.cpp" "src/server/CMakeFiles/ChatServer.dir/main.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/main.cpp.o.d"
   )
 

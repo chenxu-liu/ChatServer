@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer.pdb"
   "CMakeFiles/ChatServer.dir/ChatServer.cpp.o"
   "CMakeFiles/ChatServer.dir/ChatServer.cpp.o.d"
+  "CMakeFiles/ChatServer.dir/Service.cpp.o"
+  "CMakeFiles/ChatServer.dir/Service.cpp.o.d"
   "CMakeFiles/ChatServer.dir/main.cpp.o"
   "CMakeFiles/ChatServer.dir/main.cpp.o.d"
 )

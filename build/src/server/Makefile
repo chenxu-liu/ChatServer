@@ -154,6 +154,30 @@ ChatServer.cpp.s:
 	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/ChatServer.cpp.s
 .PHONY : ChatServer.cpp.s
 
+Service.o: Service.cpp.o
+.PHONY : Service.o
+
+# target to build an object file
+Service.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/Service.cpp.o
+.PHONY : Service.cpp.o
+
+Service.i: Service.cpp.i
+.PHONY : Service.i
+
+# target to preprocess a source file
+Service.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/Service.cpp.i
+.PHONY : Service.cpp.i
+
+Service.s: Service.cpp.s
+.PHONY : Service.s
+
+# target to generate assembly for a file
+Service.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/Service.cpp.s
+.PHONY : Service.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... ChatServer.o"
 	@echo "... ChatServer.i"
 	@echo "... ChatServer.s"
+	@echo "... Service.o"
+	@echo "... Service.i"
+	@echo "... Service.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
