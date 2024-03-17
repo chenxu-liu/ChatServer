@@ -18,6 +18,29 @@ Service::Service(){
 
 // 登录
 void Service::login(const TcpConnectionPtr &conn, json &js, Timestamp time){
+    int id = js["id"].get<int>();
+    string password = js["password"];
+    User user = user_model_.query(id);
+     if (user.get_id() == id && user.get_password() == password)
+    {
+         //用户在线
+        if (user.get_state() == "online")
+        {
+            //用户不存在
+            json response;
+            response["msgid"] = LOGIN_MSG_ACK;
+            response["errno"] = 2;
+            response["errmsg"] = "id is online";
+
+            conn->send(response.dump());
+        }
+        //...........
+        //...........
+        //待完善
+        //...........
+    }
+
+
 }
 // 注册
 void Service::regist(const TcpConnectionPtr &conn, json &js, Timestamp time){

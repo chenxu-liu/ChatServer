@@ -5,7 +5,7 @@
 #include <functional>
 #include "json.hpp"
 #include "public.h"
-
+#include "UserModel.h"
 using namespace std;
 using namespace muduo;
 using namespace muduo::net;
@@ -37,5 +37,5 @@ public:
 private:
     Service();
     unordered_map<int, MsgHandler>  msg_handler_map_;
-
+    UserModel user_model_;
 };
