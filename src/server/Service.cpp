@@ -33,6 +33,23 @@ void Service::login(const TcpConnectionPtr &conn, json &js, Timestamp time){
             response["errmsg"] = "id is online";
 
             conn->send(response.dump());
+        }else{
+            {
+                lock_guard<mutex> lock(conn_mutex_);
+                user_connection_map_.insert({id,conn});
+            }
+            //更新用户状态信息
+            user.set_state("online");
+            user_model_.update_state(user);
+            
+            json response;
+            response["msgid"] = LOGIN_MSG_ACK;
+            response["errno"] = 0;
+            response["id"] = user.get_id();
+            response["name"] = user.get_name();
+
+            
+
         }
         //...........
         //...........
@@ -44,9 +61,49 @@ void Service::login(const TcpConnectionPtr &conn, json &js, Timestamp time){
 }
 // 注册
 void Service::regist(const TcpConnectionPtr &conn, json &js, Timestamp time){
+     string name = js["name"];
+    string password = js["password"];
+
+    User user;
+    user.set_name(name);
+    user.set_password(password);
+
+    bool state = user_model_.insert(user);
+    if (state)
+    {
+        //注册成功
+        json response;
+        response["msgid"] = REG_MSG_ACK;
+        response["errno"] = 0;
+        response["id"] = user.get_id();
+
+        conn->send(response.dump());
+    }
+    else
+    {
+        //注册失败
+        json response;
+        response["msgid"] = REG_MSG_ACK;
+        response["errno"] = 1;
+
+        conn->send(response.dump());
+    }
 }
 // 一对一聊天业务
 void Service::one_chat(const TcpConnectionPtr &conn, json &js, Timestamp time){
+    int receive_id = js["to"].get<int>();
+    {
+        lock_guard<mutex> lock(conn_mutex_);
+        auto it = user_connection_map_.find(receive_id);
+        if(it != user_connection_map_.end()){
+            it->second->send(js.dump());
+            return ;
+        }
+         //...........
+        //...........
+        //待完善
+        //...........
+    }
 }
 // 添加好友业务
 bool Service::add_friend(const TcpConnectionPtr &conn, json &js, Timestamp time){
