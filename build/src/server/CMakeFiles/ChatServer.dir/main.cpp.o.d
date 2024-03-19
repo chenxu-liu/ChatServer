@@ -314,4 +314,28 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /home/liuchenxu/桌面/vscode/ChatServer/include/server/Service.h \
- /home/liuchenxu/桌面/vscode/ChatServer/include/public.h
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/public.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/UserModel.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/User.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/db/MySQL.h \
+ /usr/include/mysql/mysql.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+ /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
+ /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \
+ /usr/include/mysql/my_compress.h \
+ /usr/include/mysql/udf_registration_types.h \
+ /usr/include/mysql/client_plugin.h /usr/include/c++/13/stdlib.h \
+ /usr/include/mysql/plugin_auth_common.h \
+ /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
+ /usr/include/mysql/errmsg.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/FriendModel.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/Group.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/GroupUser.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/OfflineMessageModel.h \
+ /home/liuchenxu/桌面/vscode/ChatServer/include/server/model/GroupModel.h \
+ /usr/include/c++/13/iostream

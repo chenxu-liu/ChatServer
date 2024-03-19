@@ -7,4 +7,4 @@ aux_source_directory(./db DB_LIST)
 # 指定生成可执行文件${MODEL_LIST} ${REDIS_LIST}
 add_executable(ChatServer ${SRC_LIST} ${MODEL_LIST} ${DB_LIST})
 # 指定可执行文件链接时需要的库文件  mysqlclient  hiredis
-target_link_libraries(ChatServer muduo_net muduo_base pthread)
+target_link_libraries(ChatServer muduo_net muduo_base pthread mysqlclient)

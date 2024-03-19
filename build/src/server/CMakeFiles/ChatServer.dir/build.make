@@ -111,11 +111,131 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/main.cpp.s"
 	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/main.cpp -o CMakeFiles/ChatServer.dir/main.cpp.s
 
+src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/FriendModel.cpp
+src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o -MF CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o.d -o CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/FriendModel.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/FriendModel.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/FriendModel.cpp > CMakeFiles/ChatServer.dir/model/FriendModel.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/FriendModel.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/FriendModel.cpp -o CMakeFiles/ChatServer.dir/model/FriendModel.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/Group.cpp
+src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o -MF CMakeFiles/ChatServer.dir/model/Group.cpp.o.d -o CMakeFiles/ChatServer.dir/model/Group.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/Group.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/Group.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/Group.cpp > CMakeFiles/ChatServer.dir/model/Group.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/Group.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/Group.cpp -o CMakeFiles/ChatServer.dir/model/Group.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupModel.cpp
+src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o -MF CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o.d -o CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupModel.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/GroupModel.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupModel.cpp > CMakeFiles/ChatServer.dir/model/GroupModel.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/GroupModel.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupModel.cpp -o CMakeFiles/ChatServer.dir/model/GroupModel.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupUser.cpp
+src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o -MF CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o.d -o CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupUser.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/GroupUser.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupUser.cpp > CMakeFiles/ChatServer.dir/model/GroupUser.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/GroupUser.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/GroupUser.cpp -o CMakeFiles/ChatServer.dir/model/GroupUser.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/OfflineMessageModel.cpp
+src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o -MF CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o.d -o CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/OfflineMessageModel.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/OfflineMessageModel.cpp > CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/OfflineMessageModel.cpp -o CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/User.cpp
+src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o -MF CMakeFiles/ChatServer.dir/model/User.cpp.o.d -o CMakeFiles/ChatServer.dir/model/User.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/User.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/User.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/User.cpp > CMakeFiles/ChatServer.dir/model/User.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/User.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/User.cpp -o CMakeFiles/ChatServer.dir/model/User.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/UserModel.cpp
+src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o -MF CMakeFiles/ChatServer.dir/model/UserModel.cpp.o.d -o CMakeFiles/ChatServer.dir/model/UserModel.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/UserModel.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/UserModel.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/UserModel.cpp > CMakeFiles/ChatServer.dir/model/UserModel.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/UserModel.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/model/UserModel.cpp -o CMakeFiles/ChatServer.dir/model/UserModel.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o: /home/liuchenxu/桌面/vscode/ChatServer/src/server/db/MySQL.cpp
+src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o -MF CMakeFiles/ChatServer.dir/db/MySQL.cpp.o.d -o CMakeFiles/ChatServer.dir/db/MySQL.cpp.o -c /home/liuchenxu/桌面/vscode/ChatServer/src/server/db/MySQL.cpp
+
+src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/db/MySQL.cpp.i"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuchenxu/桌面/vscode/ChatServer/src/server/db/MySQL.cpp > CMakeFiles/ChatServer.dir/db/MySQL.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/db/MySQL.cpp.s"
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuchenxu/桌面/vscode/ChatServer/src/server/db/MySQL.cpp -o CMakeFiles/ChatServer.dir/db/MySQL.cpp.s
+
 # Object files for target ChatServer
 ChatServer_OBJECTS = \
 "CMakeFiles/ChatServer.dir/ChatServer.cpp.o" \
 "CMakeFiles/ChatServer.dir/Service.cpp.o" \
-"CMakeFiles/ChatServer.dir/main.cpp.o"
+"CMakeFiles/ChatServer.dir/main.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/Group.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/User.cpp.o" \
+"CMakeFiles/ChatServer.dir/model/UserModel.cpp.o" \
+"CMakeFiles/ChatServer.dir/db/MySQL.cpp.o"
 
 # External object files for target ChatServer
 ChatServer_EXTERNAL_OBJECTS =
@@ -123,9 +243,17 @@ ChatServer_EXTERNAL_OBJECTS =
 /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/ChatServer.cpp.o
 /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/Service.cpp.o
 /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/main.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o
+/home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o
 /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/build.make
 /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liuchenxu/桌面/vscode/ChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable /home/liuchenxu/桌面/vscode/ChatServer/bin/ChatServer"
 	cd /home/liuchenxu/桌面/vscode/ChatServer/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChatServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

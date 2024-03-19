@@ -178,6 +178,30 @@ Service.cpp.s:
 	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/Service.cpp.s
 .PHONY : Service.cpp.s
 
+db/MySQL.o: db/MySQL.cpp.o
+.PHONY : db/MySQL.o
+
+# target to build an object file
+db/MySQL.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.o
+.PHONY : db/MySQL.cpp.o
+
+db/MySQL.i: db/MySQL.cpp.i
+.PHONY : db/MySQL.i
+
+# target to preprocess a source file
+db/MySQL.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.i
+.PHONY : db/MySQL.cpp.i
+
+db/MySQL.s: db/MySQL.cpp.s
+.PHONY : db/MySQL.s
+
+# target to generate assembly for a file
+db/MySQL.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MySQL.cpp.s
+.PHONY : db/MySQL.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -202,6 +226,174 @@ main.cpp.s:
 	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model/FriendModel.o: model/FriendModel.cpp.o
+.PHONY : model/FriendModel.o
+
+# target to build an object file
+model/FriendModel.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.o
+.PHONY : model/FriendModel.cpp.o
+
+model/FriendModel.i: model/FriendModel.cpp.i
+.PHONY : model/FriendModel.i
+
+# target to preprocess a source file
+model/FriendModel.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.i
+.PHONY : model/FriendModel.cpp.i
+
+model/FriendModel.s: model/FriendModel.cpp.s
+.PHONY : model/FriendModel.s
+
+# target to generate assembly for a file
+model/FriendModel.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/FriendModel.cpp.s
+.PHONY : model/FriendModel.cpp.s
+
+model/Group.o: model/Group.cpp.o
+.PHONY : model/Group.o
+
+# target to build an object file
+model/Group.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.o
+.PHONY : model/Group.cpp.o
+
+model/Group.i: model/Group.cpp.i
+.PHONY : model/Group.i
+
+# target to preprocess a source file
+model/Group.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.i
+.PHONY : model/Group.cpp.i
+
+model/Group.s: model/Group.cpp.s
+.PHONY : model/Group.s
+
+# target to generate assembly for a file
+model/Group.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/Group.cpp.s
+.PHONY : model/Group.cpp.s
+
+model/GroupModel.o: model/GroupModel.cpp.o
+.PHONY : model/GroupModel.o
+
+# target to build an object file
+model/GroupModel.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o
+.PHONY : model/GroupModel.cpp.o
+
+model/GroupModel.i: model/GroupModel.cpp.i
+.PHONY : model/GroupModel.i
+
+# target to preprocess a source file
+model/GroupModel.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.i
+.PHONY : model/GroupModel.cpp.i
+
+model/GroupModel.s: model/GroupModel.cpp.s
+.PHONY : model/GroupModel.s
+
+# target to generate assembly for a file
+model/GroupModel.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.s
+.PHONY : model/GroupModel.cpp.s
+
+model/GroupUser.o: model/GroupUser.cpp.o
+.PHONY : model/GroupUser.o
+
+# target to build an object file
+model/GroupUser.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.o
+.PHONY : model/GroupUser.cpp.o
+
+model/GroupUser.i: model/GroupUser.cpp.i
+.PHONY : model/GroupUser.i
+
+# target to preprocess a source file
+model/GroupUser.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.i
+.PHONY : model/GroupUser.cpp.i
+
+model/GroupUser.s: model/GroupUser.cpp.s
+.PHONY : model/GroupUser.s
+
+# target to generate assembly for a file
+model/GroupUser.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/GroupUser.cpp.s
+.PHONY : model/GroupUser.cpp.s
+
+model/OfflineMessageModel.o: model/OfflineMessageModel.cpp.o
+.PHONY : model/OfflineMessageModel.o
+
+# target to build an object file
+model/OfflineMessageModel.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o
+.PHONY : model/OfflineMessageModel.cpp.o
+
+model/OfflineMessageModel.i: model/OfflineMessageModel.cpp.i
+.PHONY : model/OfflineMessageModel.i
+
+# target to preprocess a source file
+model/OfflineMessageModel.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.i
+.PHONY : model/OfflineMessageModel.cpp.i
+
+model/OfflineMessageModel.s: model/OfflineMessageModel.cpp.s
+.PHONY : model/OfflineMessageModel.s
+
+# target to generate assembly for a file
+model/OfflineMessageModel.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.s
+.PHONY : model/OfflineMessageModel.cpp.s
+
+model/User.o: model/User.cpp.o
+.PHONY : model/User.o
+
+# target to build an object file
+model/User.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/User.cpp.o
+.PHONY : model/User.cpp.o
+
+model/User.i: model/User.cpp.i
+.PHONY : model/User.i
+
+# target to preprocess a source file
+model/User.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/User.cpp.i
+.PHONY : model/User.cpp.i
+
+model/User.s: model/User.cpp.s
+.PHONY : model/User.s
+
+# target to generate assembly for a file
+model/User.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/User.cpp.s
+.PHONY : model/User.cpp.s
+
+model/UserModel.o: model/UserModel.cpp.o
+.PHONY : model/UserModel.o
+
+# target to build an object file
+model/UserModel.cpp.o:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o
+.PHONY : model/UserModel.cpp.o
+
+model/UserModel.i: model/UserModel.cpp.i
+.PHONY : model/UserModel.i
+
+# target to preprocess a source file
+model/UserModel.cpp.i:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.i
+.PHONY : model/UserModel.cpp.i
+
+model/UserModel.s: model/UserModel.cpp.s
+.PHONY : model/UserModel.s
+
+# target to generate assembly for a file
+model/UserModel.cpp.s:
+	cd /home/liuchenxu/桌面/vscode/ChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.s
+.PHONY : model/UserModel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,9 +409,33 @@ help:
 	@echo "... Service.o"
 	@echo "... Service.i"
 	@echo "... Service.s"
+	@echo "... db/MySQL.o"
+	@echo "... db/MySQL.i"
+	@echo "... db/MySQL.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model/FriendModel.o"
+	@echo "... model/FriendModel.i"
+	@echo "... model/FriendModel.s"
+	@echo "... model/Group.o"
+	@echo "... model/Group.i"
+	@echo "... model/Group.s"
+	@echo "... model/GroupModel.o"
+	@echo "... model/GroupModel.i"
+	@echo "... model/GroupModel.s"
+	@echo "... model/GroupUser.o"
+	@echo "... model/GroupUser.i"
+	@echo "... model/GroupUser.s"
+	@echo "... model/OfflineMessageModel.o"
+	@echo "... model/OfflineMessageModel.i"
+	@echo "... model/OfflineMessageModel.s"
+	@echo "... model/User.o"
+	@echo "... model/User.i"
+	@echo "... model/User.s"
+	@echo "... model/UserModel.o"
+	@echo "... model/UserModel.i"
+	@echo "... model/UserModel.s"
 .PHONY : help
 
 

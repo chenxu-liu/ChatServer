@@ -7,6 +7,11 @@
 #include "json.hpp"
 #include "public.h"
 #include "UserModel.h"
+#include "FriendModel.h"
+#include "Group.h"
+#include "OfflineMessageModel.h"
+#include "GroupModel.h"
+#include "GroupUser.h"
 using namespace std;
 using namespace muduo;
 using namespace muduo::net;
@@ -40,8 +45,10 @@ private:
     Service();
     unordered_map<int, MsgHandler> msg_handler_map_;
     UserModel user_model_;
+    FriendModel friend_model_;
+    OfflineMessageModel offline_message_model_;
+    GroupModel group_model_;
     // 存储在线用户的连接情况，便于服务器给用户发消息，注意线程安全
     unordered_map<int, TcpConnectionPtr> user_connection_map_;
     mutex conn_mutex_;
-
 };

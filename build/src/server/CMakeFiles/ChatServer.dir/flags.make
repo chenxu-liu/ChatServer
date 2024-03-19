@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/liuchenxu/桌面/vscode/ChatServer/include -I/home/liuchenxu/桌面/vscode/ChatServer/include/server
+CXX_INCLUDES = -I/home/liuchenxu/桌面/vscode/ChatServer/include -I/home/liuchenxu/桌面/vscode/ChatServer/include/server -I/home/liuchenxu/桌面/vscode/ChatServer/include/server/db -I/home/liuchenxu/桌面/vscode/ChatServer/include/server/model
 
 CXX_FLAGS = -g
 
